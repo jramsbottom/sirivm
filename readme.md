@@ -1,6 +1,6 @@
-# XML Data Processing System
+# BODS Siri VM processor
 
-This project provides a Python-based solution for processing XML data from different sources, including APIs and ZIP files. It's designed to fetch, extract, transform, and load (ETL) data for further analysis or storage in a SQLite database.
+This project provides a Python-based solution for processing Siri VM data from the BODS API and also the Siri VM bulk download endpoint. It's designed to fetch, extract, transform, and load (ETL) data for further analysis or storage in a SQLite database.
 
 ## Features
 
@@ -64,6 +64,10 @@ export BODS_API_KEY='your_api_key_here'
 - **`api_extract.py`**: Manages fetching and processing data from APIs.
 - **`zip_extract.py`**: Handles extraction and processing of XML data from ZIP files.
 - **`transform_load.py`**: Contains functions for data transformation and loading into the database.
+- **`CSVview.py`**: Contains a script you can run on the DB to summarise the contents in CSV form.
+- **`HTMLview.py`**: Contains a script you can run on the DB to summarise the contents in HTML form.
+- **`measure_latency.py`**: A script to compare the response time to the recorded at time to find the record with the best latency.
+
 
 ## Configuration
 
