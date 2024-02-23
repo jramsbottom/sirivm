@@ -43,7 +43,7 @@ def main():
                 # API Request Parameters
                 url = "https://data.bus-data.dft.gov.uk/api/v1/datafeed"
                 params = {
-                    'boundingBox': '2.93,53.374,-3.085,53.453',
+                    'boundingBox': '-1.500,50.972,-2.343,51.681',
                     'api_key': api_key
                 }
                 # Start API processing
